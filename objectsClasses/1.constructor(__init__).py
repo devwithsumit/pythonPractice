@@ -19,8 +19,4 @@ a.info()
 
 def greet():
     print('Hello World')
-<<<<<<< HEAD
 greet()
-=======
-greet()
->>>>>>> d7cd344 (.)
