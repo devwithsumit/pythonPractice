@@ -6,8 +6,8 @@
 #         print(" ", end="")
 
 
-# for i in range(4, 0, -1):
-#     print(" " * (4 - i) + "* " * i)
+for i in range(4, 0, -1):
+    print(" " * (4 - i) + "* " * i)
     
 
 
