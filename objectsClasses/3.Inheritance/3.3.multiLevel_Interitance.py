@@ -10,7 +10,7 @@ class employee:
     def intro(self):
         print(f"{self.name} is an employee")
 
-# interited class
+# interited class - level 1
 class programmer(employee):
     def __init__(self, name, id):
         super().__init__(name)
@@ -23,7 +23,7 @@ class programmer(employee):
     def intro(self):
         print(f"{self.name} is a programmer")
 
-# Sub-interited class
+# Sub-interited class - level 2
 class expert(programmer):
 
     def __init__(self, name, id, company):

@@ -13,9 +13,9 @@ class employee:
         return f"The name of the employee is {self.name} in this obj.repr"
     def __call__(self,):
         return f'you called this function'
-        
+
 a = employee("sumit", 11)
-print(a)
+print(a) #__str__ will be called if present
 print(str(a))
 print(repr(a))
-a()
+print(a())
